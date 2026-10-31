@@ -8,7 +8,7 @@ import {
 import type { LocaleConfig } from "../src/types/index.js";
 
 const enHero = defineHeroConfig({
-  name: "Mister-Hope",
+  name: "Hefou",
   welcome: "👋 Hi there, I am",
   titles: ["Open Source Contributor", "A Lifelong Learner"],
   avatar: "/avatar.avif",
@@ -17,12 +17,12 @@ const enHero = defineHeroConfig({
     {
       icon: "fa7-brands:blogger",
       name: "Blog",
-      link: "https://mister-hope.com",
+      link: "https://Hefou.com",
     },
     {
       icon: "fa7-brands:github",
       name: "GitHub",
-      link: "https://github.com/Mister-Hope",
+      link: "https://github.com/Hefou",
     },
   ],
 });
@@ -59,7 +59,7 @@ const enContents = defineSections([
       contacts: [
         {
           label: "Email",
-          value: "mister-hope@outlook.com",
+          value: "Hefou@outlook.com",
           icon: "envelope",
         },
         {
@@ -325,8 +325,8 @@ const enFooter = defineFooterConfig({
 export const enLocale: LocaleConfig = {
   lang: "en-US",
   langName: "EN",
-  title: "Mister-Hope | Portfolio",
-  description: "The personal portfolio of Mister-Hope, a front-end developer.",
+  title: "Hefou | Portfolio",
+  description: "The personal portfolio of Hefou, a front-end developer.",
   hero: enHero,
   navbar: enNavbar,
   sections: enContents,
@@ -334,7 +334,7 @@ export const enLocale: LocaleConfig = {
 };
 
 const zhHero = defineHeroConfig({
-  name: "Mister-Hope",
+  name: "Hefou",
   welcome: "👋 你好，我是",
   titles: ["开源贡献者", "终身学习者"],
   avatar: "/avatar.avif",
@@ -343,12 +343,12 @@ const zhHero = defineHeroConfig({
     {
       icon: "fa7-brands:blogger",
       name: "博客",
-      link: "https://mister-hope.com",
+      link: "https://Hefou.com",
     },
     {
       icon: "fa7-brands:github",
       name: "GitHub",
-      link: "https://github.com/Mister-Hope",
+      link: "https://github.com/Hefou",
     },
   ],
 });
@@ -385,7 +385,7 @@ const zhContents = defineSections([
       contacts: [
         {
           label: "邮箱",
-          value: "mister-hope@outlook.com",
+          value: "Hefou@outlook.com",
           icon: "envelope",
         },
         {
@@ -645,8 +645,8 @@ const zhFooter = defineFooterConfig({
 export const zhLocale: LocaleConfig = {
   lang: "zh-CN",
   langName: "中文",
-  title: "Mister-Hope | 作品集",
-  description: "Mister-Hope，一个前端开发者的个人作品集",
+  title: "Hefou | 作品集",
+  description: "Hefou，一个前端开发者的个人作品集",
   ui: {
     themeToggle: "切换主题",
     contacts: "联系",
