@@ -1,0 +1,625 @@
+locales:
+  /:
+    lang: en-US
+    langName: EN
+    title: Hefou | Portfolio
+    description: The personal portfolio of Hefou, a front-end developer and physics educator.
+
+    hero:
+      name: Hefou
+      welcome: 👋 Greetings, I am
+      titles:
+        - High School Physics Teacher
+        - Front-End Developer
+        - Open-Source Contributor
+        - Lifelong Learner
+      avatar: /avatar.avif
+      bgImage: /bg.avif
+      medias:
+        - icon: fa7-brands:blogger
+          name: Blog
+          link: https://Hefou.com
+
+        - icon: fa7-brands:github
+          name: GitHub
+          link: https://github.com/Hefou
+
+        - icon: fa7-brands:linkedin-in
+          name: LinkedIn
+          link: https://www.linkedin.com/in/Hefou/
+
+        - icon: simple-icons:zhihu
+          name: Zhihu
+          link: https://www.zhihu.com/people/Hefou
+
+        - icon: fa7-brands:steam
+          name: Steam
+          link: https://steamcommunity.com/id/Mister_Hope
+
+        - icon: fa7-brands:x-twitter
+          name: X
+          link: https://x.com/Mister_Hope
+
+    navbar:
+      links:
+        - label: Profile
+          anchor: "#profile"
+        - label: Experience
+          anchor: "#experience"
+        - label: Projects
+          anchor: "#projects"
+        - label: Theses
+          anchor: "#theses"
+
+    sections:
+      - type: profile
+        id: profile
+        title: Profile
+        icon: user-tie
+        data:
+          fields:
+            - title: Name
+              icon: user
+              value: BoWang Zhang
+
+            - title: Affiliation
+              icon: building-columns
+              value: Northeast YuCai School
+
+            - title: Interests
+              icon: heart
+              value:
+                - Coding
+                - Gaming
+                - Music
+
+          contacts:
+            - label: Email
+              value: Hefou@outlook.com
+              icon: envelope
+
+            - label: Telegram
+              value: Mister_Hope
+              icon: fa7-brands:telegram
+              link: https://t.me/Mister_Hope
+
+          slogan: Where there is light, there is hope.
+
+      - type: experience
+        id: experience
+        title: Experience
+        icon: graduation-cap
+        data:
+          - type: work
+            place: Northeast YuCai School, China
+            time: Aug. 2025 - Present
+            title: Physics Teacher, High School Department
+            content: Delivering comprehensive physics instruction to Class 2513 and 2516 students.
+
+          - type: volunteer
+            place: ChangChun, China
+            time: Jan. 2025 - Jul. 2025
+            title: Full-Time Open-Source Contributor
+            content: Developing and maintaining open-source projects, including [VuePress](https://vuejs.press/) and [markdown-it plugins](https://mdit-plugins.github.io/).
+
+          - type: study
+            place: Northeast Normal University, School of Physics, China
+            time: Sept. 2021 - Dec. 2024
+            title: Master of Science, Theoretical Physics
+            content: Specialized in theoretical physics under the supervision of Prof. [XueXi Yi](https://cqs.nenu.edu.cn/).
+
+          - type: volunteer
+            place: AnShan, China
+            time: Jul. 2020 - Aug. 2021
+            title: Full-Time Open-Source Contributor
+            content: Architected and developed open-source projects, including [VuePress Theme Hope](https://theme-hope.vuejs.press/) and [Waline](https://waline.js.org/).
+
+          - type: study
+            place: Northeast Normal University, School of Physics, China
+            time: Sept. 2016 - June 2020
+            title: Bachelor of Science, Physics
+            content: Recipient of the Principal's Scholarship.
+
+      - type: cards
+        id: projects
+        title: Open Source Projects
+        icon: book
+        data:
+          - title: VuePress Core ![Stars](https://img.shields.io/github/stars/vuepress/core?style=plastic&logo=github)
+            logo: https://vuejs.press/images/hero.png
+            description: |-
+              A Vue-powered static site generator.
+            category: Project
+            actions:
+              - icon: logos:typescript-icon
+              - icon: logos:vue
+              - icon: logos:vitejs
+              - icon: logos:webpack
+              - text: Website
+                link: https://vuejs.press
+                icon: external-link
+              - text: GitHub
+                link: https://github.com/vuepress/core
+                icon: fa7-brands:github
+
+          - title: VuePress Ecosystem ![Stars](https://img.shields.io/github/stars/vuepress/ecosystem?style=plastic&logo=github)
+            logo: https://vuejs.press/images/hero.png
+            description: A comprehensive collection of official VuePress plugins and themes.
+            category: Project
+            actions:
+              - icon: logos:typescript-icon
+              - icon: logos:vue
+              - icon: logos:sass
+              - text: Website
+                link: https://ecosystem.vuejs.press
+                icon: external-link
+              - text: GitHub
+                link: https://github.com/vuepress/ecosystem
+                icon: fa7-brands:github
+
+          - title: VuePress Theme Hope ![Stars](https://img.shields.io/github/stars/vuepress-theme-hope/vuepress-theme-hope?style=plastic&logo=github)
+            logo: https://theme-hope-assets.vuejs.press/logo.svg
+            description: A feature-rich and highly customizable VuePress theme.✨
+            category: Project
+            actions:
+              - icon: logos:typescript-icon
+              - icon: logos:vue
+              - icon: logos:sass
+              - text: Website
+                link: https://theme-hope.vuejs.press
+                icon: external-link
+              - text: GitHub
+                link: https://github.com/vuepress-theme-hope/vuepress-theme-hope
+                icon: fa7-brands:github
+
+          - title: Waline ![Stars](https://img.shields.io/github/stars/walinejs/waline?style=plastic&logo=github)
+            logo: https://waline.js.org/logo.png
+            description: A lightweight and secure comment system.
+            category: Project
+            actions:
+              - icon: logos:typescript-icon
+              - icon: logos:vue
+              - icon: logos:sass
+              - icon: logos:vercel-icon
+              - text: Website
+                link: https://waline.js.org
+                icon: external-link
+              - text: GitHub
+                link: https://github.com/walinejs/waline
+                icon: fa7-brands:github
+
+          - title: mdit-plugins ![Stars](https://img.shields.io/github/stars/mdit-plugins/mdit-plugins?style=plastic&logo=github)
+            logo: https://mdit-plugins.github.io/logo.svg
+            description: A robust collection of markdown-it plugins written in TypeScript.
+            category: Project
+            actions:
+              - icon: logos:typescript-icon
+              - icon: logos:markdown
+              - text: Website
+                link: https://mdit-plugins.github.io/
+                icon: external-link
+
+              - text: GitHub
+                link: https://github.com/mdit-plugins/mdit-plugins
+                icon: fa7-brands:github
+
+          - title: bcrypt-ts
+            description: A robust bcrypt implementation in TypeScript.
+            category: Project
+            actions:
+              - icon: logos:typescript-icon
+              - text: GitHub
+                link: https://github.com/Hefou/bcrypt-ts
+                icon: fa7-brands:github
+
+          - title: portfolio-template
+            description: A zero-code template for personal portfolios.
+            category: Project
+            actions:
+              - icon: logos:react
+              - icon: logos:typescript-icon
+              - icon: logos:tailwindcss-icon
+              - icon: logos:vitejs
+              - text: GitHub
+                link: https://github.com/Hefou/portfolio-template
+                icon: fa7-brands:github
+
+          - title: slimsearch
+            description: A compact and performant full-text search engine for browsers and Node.js.
+            category: Project
+            actions:
+              - icon: logos:typescript-icon
+              - text: GitHub
+                link: https://github.com/Hefou/slimsearch
+                icon: fa7-brands:github
+
+          - title: webpack-v5-chain
+            description: A chainable API utility for building and managing Webpack configurations.
+            category: Project
+            actions:
+              - icon: logos:typescript-icon
+              - icon: logos:webpack
+              - text: GitHub
+                link: https://github.com/Hefou/webpack-v5-chain
+                icon: fa7-brands:github
+
+          - title: gulp5-sass-plugin
+            description: A plugin optimized for compiling Sass in Gulp 5.
+            category: Project
+            actions:
+              - icon: logos:typescript-icon
+              - icon: logos:gulp
+              - icon: logos:sass
+              - text: GitHub
+                link: https://github.com/Hefou/gulp5-sass-plugin
+                icon: fa7-brands:github
+
+          - title: create-codepen
+            description: A utility for generating CodePen snippets via API.
+            category: Project
+            actions:
+              - icon: logos:typescript-icon
+              - icon: logos:codepen-icon
+              - text: GitHub
+                link: https://github.com/Hefou/create-codepen
+                icon: fa7-brands:github
+
+          - title: rollup-plugin-resolve-shebang
+            description: A Rollup plugin designed to parse and preserve shebang declarations in entry files.
+            category: Project
+            actions:
+              - icon: logos:typescript-icon
+              - icon: logos:rollup
+              - text: GitHub
+                link: https://github.com/Hefou/rollup-plugin-resolve-shebang
+                icon: fa7-brands:github
+
+      - type: cards
+        id: theses
+        title: Theses
+        icon: scroll
+        data:
+          - title: Manipulating spectral transitions and photonic transmission in a non-Hermitian optical system through nanoparticle perturbations
+            category: Phys. Rev. A 111, 063702 (2025)
+            description: |-
+              DOI: <https://doi.org/10.1103/PhysRevA.111.063702>
+            actions:
+              - text: Read Full Text
+                link: https://drive.Hefou.com/public/files/PhysRevA.111.063702.pdf
+                icon: external-link
+
+    footer:
+      copyright: © 2025 Mister Hope. All rights reserved.
+      description: Built with passion.
+
+  /zh/:
+    lang: zh-CN
+    langName: 中文
+    title: Hefou | 作品集
+    description: Hefou 的个人作品集——前端开发者与物理教师。
+    ui:
+      themeToggle: 切换主题
+      contact: 联系
+
+    hero:
+      name: Hefou
+      welcome: 👋 欢迎，我是
+      titles:
+        - 高中物理教师
+        - 前端开发者
+        - 开源贡献者
+        - 终身学习者
+      avatar: /avatar.avif
+      bgImage: /bg.avif
+      medias:
+        - icon: fa7-brands:blogger
+          name: 博客
+          link: https://Hefou.com
+
+        - icon: fa7-brands:github
+          name: GitHub
+          link: https://github.com/Hefou
+
+        - icon: fa7-brands:linkedin-in
+          name: 领英
+          link: https://www.linkedin.com/in/Hefou/
+
+        - icon: simple-icons:zhihu
+          name: 知乎
+          link: https://www.zhihu.com/people/Hefou
+
+        - icon: fa7-brands:steam
+          name: Steam
+          link: https://steamcommunity.com/id/Mister_Hope
+
+        - icon: fa7-brands:x-twitter
+          name: X
+          link: https://x.com/Mister_Hope
+
+    navbar:
+      links:
+        - label: 个人资料
+          anchor: "#profile"
+        - label: 经历
+          anchor: "#experience"
+        - label: 项目
+          anchor: "#projects"
+        - label: 论文
+          anchor: "#theses"
+
+    sections:
+      - type: profile
+        id: profile
+        title: 个人资料
+        icon: user-tie
+        data:
+          fields:
+            - title: 姓名
+              icon: user
+              value: 张伯望
+
+            - title: 所属机构
+              icon: building-columns
+              value: 东北育才学校
+
+            - title: 兴趣
+              icon: heart
+              value:
+                - 编程
+                - 游戏
+                - 音乐
+
+          contacts:
+            - label: 邮箱
+              value: Hefou@outlook.com
+              icon: envelope
+
+            - label: QQ
+              value: "1178522294"
+              icon: fa7-brands:qq
+
+          slogan: 有光的地方，就有希望。
+
+      - type: experience
+        id: experience
+        title: 经历
+        icon: graduation-cap
+        data:
+          - type: work
+            place: 东北育才学校，中国
+            time: 2025年8月 - 至今
+            title: 高中部物理教师
+            content: 担任 2513、2516 班物理教学工作。
+
+          - type: volunteer
+            place: 长春，中国
+            time: 2025年1月 - 2025年7月
+            title: 全职开源贡献者
+            content: 参与开发与维护 [VuePress](https://vuejs.press/zh/) 及 [mdit-plugins](https://mdit-plugins.github.io/zh/) 等开源项目。
+
+          - type: study
+            place: 东北师范大学，物理学院，中国
+            time: 2021年9月 - 2024年12月
+            title: 理学硕士
+            content: 师从[衣学喜教授](https://cqs.nenu.edu.cn/)，攻读理论物理方向。
+
+          - type: volunteer
+            place: 鞍山，中国
+            time: 2020年7月 - 2021年8月
+            title: 全职开源贡献者
+            content: 主导并参与开发 [VuePress Theme Hope](https://theme-hope.vuejs.press/zh/) 与 [Waline](https://waline.js.org/zh/) 等核心开源项目。
+
+          - type: study
+            place: 东北师范大学，物理学院，中国
+            time: 2016年9月 - 2020年6月
+            title: 理学学士
+            content: 荣获校长奖学金。
+
+      - type: cards
+        id: projects
+        title: 开源项目
+        icon: book
+        data:
+          - title: VuePress Core ![Stars](https://img.shields.io/github/stars/vuepress/core?style=plastic&logo=github)
+            logo: https://vuejs.press/images/hero.png
+            description: |-
+              基于 Vue 的静态网站生成器。
+            category: 项目
+            actions:
+              - icon: logos:typescript-icon
+              - icon: logos:vue
+              - icon: logos:vitejs
+              - icon: logos:webpack
+              - text: 网站
+                link: https://vuejs.press/zh/
+                icon: external-link
+              - text: GitHub
+                link: https://github.com/vuepress/core
+                icon: fa7-brands:github
+
+          - title: VuePress Ecosystem ![Stars](https://img.shields.io/github/stars/vuepress/ecosystem?style=plastic&logo=github)
+            logo: https://vuejs.press/images/hero.png
+            description: VuePress 官方插件与主题生态集合。
+            category: 项目
+            actions:
+              - icon: logos:typescript-icon
+              - icon: logos:vue
+              - icon: logos:sass
+              - text: 网站
+                link: https://ecosystem.vuejs.press/zh/
+                icon: external-link
+              - text: GitHub
+                link: https://github.com/vuepress/ecosystem
+                icon: fa7-brands:github
+
+          - title: VuePress Theme Hope ![Stars](https://img.shields.io/github/stars/vuepress-theme-hope/vuepress-theme-hope?style=plastic&logo=github)
+            logo: https://theme-hope-assets.vuejs.press/logo.svg
+            description: 一款功能丰富且高度可定制的 VuePress 主题✨
+            category: 项目
+            actions:
+              - icon: logos:typescript-icon
+              - icon: logos:vue
+              - icon: logos:sass
+              - text: 网站
+                link: https://theme-hope.vuejs.press
+                icon: external-link
+              - text: GitHub
+                link: https://github.com/vuepress-theme-hope/vuepress-theme-hope
+                icon: fa7-brands:github
+
+          - title: Waline ![Stars](https://img.shields.io/github/stars/walinejs/waline?style=plastic&logo=github)
+            logo: https://waline.js.org/logo.png
+            description: 一款轻量且安全的评论系统。
+            category: 项目
+            actions:
+              - icon: logos:typescript-icon
+              - icon: logos:vue
+              - icon: logos:sass
+              - icon: logos:vercel-icon
+              - text: 网站
+                link: https://waline.js.org
+                icon: external-link
+              - text: GitHub
+                link: https://github.com/walinejs/waline
+                icon: fa7-brands:github
+
+          - title: mdit-plugins ![Stars](https://img.shields.io/github/stars/mdit-plugins/mdit-plugins?style=plastic&logo=github)
+            logo: https://mdit-plugins.github.io/logo.svg
+            description: 基于 TypeScript 构建的 markdown-it 插件集合。
+            category: 项目
+            actions:
+              - icon: logos:typescript-icon
+              - icon: logos:markdown
+              - text: 网站
+                link: https://mdit-plugins.github.io/
+                icon: external-link
+
+              - text: GitHub
+                link: https://github.com/mdit-plugins/mdit-plugins
+                icon: fa7-brands:github
+
+          - title: inNENU
+            logo: https://innenu.com/logo.svg
+            category: 项目
+            description: 逾百万字的东北师范大学新生指南。
+            actions:
+              - icon: logos:typescript-icon
+              - icon: tdesign:logo-miniprogram-filled
+              - icon: logos:yaml
+              - text: 网站
+                link: https://innenu.com
+                icon: external-link
+
+              - text: GitHub
+                link: https://github.com/inNENU
+                icon: fa7-brands:github
+
+          - title: mptool
+            logo: https://miniapp-tool.github.io/logo.svg
+            description: 极致轻量的小程序开发框架。
+            category: 项目
+            actions:
+              - icon: logos:typescript-icon
+              - icon: tdesign:logo-miniprogram-filled
+              - text: 网站
+                link: https://miniapp-tool.github.io
+                icon: external-link
+              - text: GitHub
+                link: https://github.com/miniapp-tool/mptool
+                icon: fa7-brands:github
+
+          - title: bcrypt-ts
+            description: 基于 TypeScript 的 bcrypt 算法实现。
+            category: 项目
+            actions:
+              - icon: logos:typescript-icon
+              - text: GitHub
+                link: https://github.com/Hefou/bcrypt-ts
+                icon: fa7-brands:github
+
+          - title: portfolio-template
+            description: 零代码个人作品集模板。
+            category: 项目
+            actions:
+              - icon: logos:react
+              - icon: logos:typescript-icon
+              - icon: logos:tailwindcss-icon
+              - icon: logos:vitejs
+              - text: GitHub
+                link: https://github.com/Hefou/portfolio-template
+                icon: fa7-brands:github
+
+          - title: slimsearch
+            description: 适用于浏览器与 Node.js 的轻量级高性能全文搜索引擎。
+            category: 项目
+            actions:
+              - icon: logos:typescript-icon
+              - text: GitHub
+                link: https://github.com/Hefou/slimsearch
+                icon: fa7-brands:github
+
+          - title: webpack-v5-chain
+            description: 用于构建与管理 Webpack 配置的链式 API 工具。
+            category: 项目
+            actions:
+              - icon: logos:typescript-icon
+              - icon: logos:webpack
+              - text: GitHub
+                link: https://github.com/Hefou/webpack-v5-chain
+                icon: fa7-brands:github
+
+          - title: gulp5-sass-plugin
+            description: 适配 Gulp 5 的 Sass 编译插件。
+            category: 项目
+            actions:
+              - icon: logos:typescript-icon
+              - icon: logos:gulp
+              - icon: logos:sass
+              - text: GitHub
+                link: https://github.com/Hefou/gulp5-sass-plugin
+                icon: fa7-brands:github
+
+          - title: create-codepen
+            description: 基于 API 自动生成 CodePen 代码片段的工具。
+            category: 项目
+            actions:
+              - icon: logos:typescript-icon
+              - icon: logos:codepen-icon
+              - text: GitHub
+                link: https://github.com/Hefou/create-codepen
+                icon: fa7-brands:github
+
+          - title: rollup-plugin-resolve-shebang
+            description: 用于解析并保留入口文件 shebang 声明的 Rollup 插件。
+            category: 项目
+            actions:
+              - icon: logos:typescript-icon
+              - icon: logos:rollup
+              - text: GitHub
+                link: https://github.com/Hefou/rollup-plugin-resolve-shebang
+                icon: fa7-brands:github
+
+      - type: cards
+        id: theses
+        title: 论文
+        icon: scroll
+        data:
+          - title: Manipulating spectral transitions and photonic transmission in a non-Hermitian optical system through nanoparticle perturbations
+            category: Phys. Rev. A 111, 063702 (2025)
+            description: |-
+              DOI: <https://doi.org/10.1103/PhysRevA.111.063702>
+            actions:
+              - text: 阅读全文
+                link: https://drive.Hefou.com/PhysRevA.111.063702.pdf
+                icon: external-link
+
+          - title: 非厄米光学系统的调控与动力学演化
+            category: 硕士学位论文
+            actions:
+              - text: 阅读全文
+                link: https://drive.Hefou.com/%E7%A1%95%E5%A3%AB%E5%AD%A6%E4%BD%8D%E8%AE%BA%E6%96%87.pdf
+                icon: external-link
+
+    footer:
+      copyright: Copyright © 2025-$year Mister Hope. 保留所有权利。
+      description: 秉持热爱，用心构建。
