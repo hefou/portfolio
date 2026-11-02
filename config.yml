@@ -16,29 +16,13 @@ locales:
       avatar: /avatar.avif
       bgImage: /bg.avif
       medias:
-        - icon: fa7-brands:blogger
-          name: Blog
-          link: https://Hefou.com
-
         - icon: fa7-brands:github
           name: GitHub
           link: https://github.com/Hefou
 
-        - icon: fa7-brands:linkedin-in
-          name: LinkedIn
-          link: https://www.linkedin.com/in/Hefou/
-
-        - icon: simple-icons:zhihu
-          name: Zhihu
-          link: https://www.zhihu.com/people/Hefou
-
-        - icon: fa7-brands:steam
-          name: Steam
-          link: https://steamcommunity.com/id/Mister_Hope
-
         - icon: fa7-brands:x-twitter
           name: X
-          link: https://x.com/Mister_Hope
+          link: https://x.com/hefun
 
     navbar:
       links:
@@ -312,29 +296,14 @@ locales:
       avatar: /avatar.avif
       bgImage: /bg.avif
       medias:
-        - icon: fa7-brands:blogger
-          name: 博客
-          link: https://Hefou.com
 
         - icon: fa7-brands:github
           name: GitHub
           link: https://github.com/Hefou
 
-        - icon: fa7-brands:linkedin-in
-          name: 领英
-          link: https://www.linkedin.com/in/Hefou/
-
-        - icon: simple-icons:zhihu
-          name: 知乎
-          link: https://www.zhihu.com/people/Hefou
-
-        - icon: fa7-brands:steam
-          name: Steam
-          link: https://steamcommunity.com/id/Mister_Hope
-
         - icon: fa7-brands:x-twitter
           name: X
-          link: https://x.com/Mister_Hope
+          link: https://x.com/hefun
 
     navbar:
       links:
